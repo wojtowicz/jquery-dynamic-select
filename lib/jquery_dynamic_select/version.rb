@@ -1,0 +1,3 @@
+module JqueryDynamicSelect
+  VERSION = "0.0.1"
+end
