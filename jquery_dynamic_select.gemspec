@@ -4,8 +4,8 @@ require File.expand_path('../lib/jquery_dynamic_select/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Wójtowicz Tomasz"]
   gem.email         = ["tomash2310w@gmail.com"]
-  gem.description   = %q{TODO: jQuery dynamic select in Rails 3 }
-  gem.summary       = %q{TODO: jQuery dynamic select in Rails 3 }
+  gem.description   = %q{jQuery dynamic select in Rails 3 }
+  gem.summary       = %q{jQuery dynamic select in Rails 3 }
   gem.homepage      = "http://e-wojtowicz.pl"
 
   gem.files         = `git ls-files`.split($\)
