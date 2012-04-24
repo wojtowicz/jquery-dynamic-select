@@ -10,6 +10,12 @@ module ApplicationHelper
       0
     end
   end
+  def dynamic_javascript(*files)
+    content_for(:head) { javascript_include_tag(*files) }
+    #content_for(:head) { "<title>A simple page</title>".html_safe }
+  end
+end
+module LayoutHelper
 end
 module ActionView
   module Helpers
@@ -21,6 +27,7 @@ module ActionView
           html["dynamic-select-selected"] = dynamic_select_selected(object_name, method)
         rescue RuntimeError => e
         end
+        #dynamic_javascript("assets/javascripts/dynamic-select-rails.js")
         select(object_name, method, choices, options, html)
       end
     end

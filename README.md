@@ -1,4 +1,4 @@
-# JqueryDynamicSelect
+# jQueryDynamicSelect
 
 TODO: Write a gem description
 
