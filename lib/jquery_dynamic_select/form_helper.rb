@@ -27,7 +27,6 @@ module ActionView
           html["dynamic-select-selected"] = dynamic_select_selected(object_name, method)
         rescue RuntimeError => e
         end
-        #dynamic_javascript("assets/javascripts/dynamic-select-rails.js")
         select(object_name, method, choices, options, html)
       end
     end
@@ -42,6 +41,7 @@ module ActionView
 end
 class ActionView::Helpers::FormBuilder #:nodoc:
   def dynamic_select(method, source, change, choices = {}, options = {}, html = {})
+    #source = eval("dynamic_select_#{change.to_s.gsub('_id', '')}_#{change.to_s.gsub('_id', '').to_s.pluralize}_path")
     @template.dynamic_select(@object_name, method, source, change, choices, objectify_options(options), html)
   end
 end
