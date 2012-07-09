@@ -2,8 +2,7 @@
 
 TODO: Write a gem description in English
 
-Gem pozwalający na utworzenie dwóch powiązanych ze sobą rozwijanych list wyboru (selecty), gdzie po zmianie zaznaczenia opcji w liście pierwszej doładowane zostaną metodą AJAX odpowiednie dane do listy drugiej.
-
+Gem pozwalający na utworzenie dwóch powiązanych ze sobą rozwijanych list wyboru (selecty), gdzie po zmianie zaznaczenia opcji w liście pierwszej doładowane zostaną (asynchronicznie ajax) odpowiednie dane do listy drugiej.
 
 
 ## Installation
