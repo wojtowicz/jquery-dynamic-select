@@ -1,9 +1,6 @@
 # jQueryDynamicSelect
 
-TODO: Write a gem description in English
-
 Gem pozwalający na utworzenie dwóch powiązanych ze sobą rozwijanych list wyboru (selecty), gdzie po zmianie zaznaczenia opcji w liście pierwszej doładowane zostaną (asynchronicznie ajax) odpowiednie dane do listy drugiej.
-
 
 ## Installation
 
@@ -70,9 +67,8 @@ Trzeba jeszcze do routingu dodać
 
 ```ruby
 get :dynamic_select_brand_models, :on => :collection
-end
 ```
-# TODO: Opisać trzeci parametr wywołania dynamic_select w kontrolerze
+# TODO: 
 
 # Widok
 
@@ -93,5 +89,7 @@ Opis parametrów helpera dynamic_select:
 
 ## TODO
 
-* Write some tests!
+* Testy, testy i jeszcze raz testy
+* Opisać wszystko po angielsku
+* Opisać trzeci parametr wywołania dynamic_select w kontrolerze
 
