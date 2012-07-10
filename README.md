@@ -68,7 +68,6 @@ Trzeba jeszcze do routingu dodać
 ```ruby
 get :dynamic_select_brand_models, :on => :collection
 ```
-# TODO: 
 
 # Widok
 
