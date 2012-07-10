@@ -71,7 +71,7 @@ get :dynamic_select_brand_models, :on => :collection
 
 # Widok
 
-Pierwszy select tworzymy normalnie natomiast drugi tworzymy w ten sposób:
+Pierwszy select tworzymy normalnie natomiast drugi tworzony jest za pomocą helpera dynamic_select
 
 ```ruby
 <%= form_for @car do |f| %>
